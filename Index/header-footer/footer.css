@@ -1,0 +1,30 @@
+/* footer */
+footer {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.contact-social-legal {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: top;
+}
+
+.contact, .social-media, .legal {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    max-width: 33%;
+}
+footer .contact-social-legal p, a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: left;
+}
+footer p{
+    text-align: center;
+}

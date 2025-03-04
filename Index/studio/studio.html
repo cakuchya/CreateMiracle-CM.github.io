@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Class Overview</title>
+    <link rel="stylesheet" href="../style.css"> <!-- Include style.css -->
+    <link rel="stylesheet" href="../header-footer/header.css"> <!-- Include header.css -->
+    <link rel="stylesheet" href="../header-footer/footer.css"> <!-- Include footer.css -->
+
+    <style>
+        main {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .overview {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .studios {
+            padding: 1rem;
+            justify-content: center;
+            border: 1px solid grey;
+            align-items: center;
+        }
+
+        .studios img {
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+            border: 1px solid red;
+            position: relative;
+            display: flex;
+        }
+
+        .studios .description {
+            padding: 1rem;
+            width: 66%;
+        }
+
+        .studios h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .studios p {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        .studios .image{
+            width: 33%;
+            height: 100%;
+            padding: 1rem;
+        }
+
+        .studios button{
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 1rem;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 0.5rem;
+        }
+
+        .studio {
+            text-align: left;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+            width: 100%;
+            margin: 1rem;
+            margin-bottom: 10px;
+            display: flex;
+            vertical-align: top;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- header -->
+    <div id="header"></div>
+
+    <main>
+        <div class="overview">
+            <h1>Studio Overview</h1>
+            <p>Our products are designed to meet the needs of our customers. We offer a wide range of products that are perfect for any occasion. Whether you are looking for a gift for a loved one or a treat for yourself, we have something for everyone. Our products are made with the highest quality materials and are designed to last. We are committed to providing our customers with the best products and services possible. Thank you for choosing us!</p>
+        </div>
+        <hr>
+        <div class="studios">
+            <!-- services which provide: studio / product -->
+            
+            <div class="studio">
+                <div class="description">
+                    <h2>Studio Type 1</h2>
+                    <p>class description</p>
+                    <button><a href="#type1">Learn More</a></button>    
+                </div>
+                <div class="image">
+                    <img src="https://via.placeholder.com/200x200?text=Studio" alt="Studio">            
+                </div>
+            </div>
+            <hr>
+            <div class="studio">
+                <div class="image">
+                    <img src="https://via.placeholder.com/200x200?text=Product" alt="Product">
+                </div>
+                <div class="description">
+                    <h2>Studio Type 2</h2>
+                    <p>Class description</p>
+                    <button><a href="#type2">Learn More</a></button>
+                </div>    
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <script src="../header-footer/loadHeaderFooter.js"></script>
+</body>
+</html>
